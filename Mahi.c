@@ -1,19 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    double number;
+    int number;
 
-    printf("Enter a number: ");
-    scanf("%lf", &number);
+    printf("Enter an integer: ");
+    scanf("%d", &number);
 
-    if (number <= 10000)
-    {
-        if (number == 10000)
-            printf("You entered 0.");
-        else
-            printf("You entered a negative number.");
-    }
+    // True if the number is perfectly divisible by 2
+    if(number % 2 == 0)
+        printf("%d is even.", number);
     else
-        printf("You entered a positive number.");
+        printf("%d is odd.", number);
+
     return 0;
 }
