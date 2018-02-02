@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int number;
+    int i;
 
     printf("Enter an integer: ");
-    scanf("%d", &number);
+    scanf("%d", &i);
 
     // True if the number is perfectly divisible by 2
-    if(number % 2 == 0)
-        printf("%d is even.", number);
+    if(i % 2 == 0)
+        printf("%d is even.", i);
     else
-        printf("%d is odd.", number);
+        printf("%d is odd.", i);
 
     return 0;
 }
