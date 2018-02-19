@@ -2,15 +2,14 @@
     #include<conio.h>
     int main()
     {
-                  int x, y;
+                  int i, p;
                   printf("Enter any two integer numbers : ");
-                  scanf("%d %d", &x, &y);
-                  printf("\n The value of x before swapping is %d", x);
-                  printf("\n The value of y before swapping is %d", y);
-                  x = x + y;
-                  y = x - y;
-                  x = x - y;
-                  printf("\n The value of x after swapping is %d", x);
-                  printf("\n The value of y after swapping is %d", y);
+                  scanf("%d %d", &i, &p);
+                  printf("\n The value of x before swapping is %d", i);
+                  printf("\n The value of y before swapping is %d", p);
+                  i = x + y;
+                  p = x - y;
+                  printf("\n The value of x after swapping is %d", i);
+                  printf("\n The value of y after swapping is %d", p);
     return (0);
     }
