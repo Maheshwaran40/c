@@ -3,7 +3,7 @@
 int main()
 {
     long long n;
-    int count = 0;
+    int c = 0;
 
     printf("Enter an integer: ");
     scanf("%lld", &n);
@@ -12,8 +12,9 @@ int main()
     {
         // n = n/10
         n /= 10;
-        ++count;
+        ++c;
     }
 
-    printf("Number of digits: %d", count);
+    printf("Number of digits: %d", c);
+return 0;
 }
