@@ -3,10 +3,15 @@
 int main() 
 {
 	int n;
+	printf("enter the number:");
 	scanf("%d",&n);
 	if(n%7==0)
-	printf("yes");
+	{
+		printf("\n yes");
+	}
 	else
-	printf("no");
+	{
+		printf("\n no");
+	}
 	return 0;
 }
